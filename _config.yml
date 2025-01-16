@@ -1,0 +1,6 @@
+title: Asthma Coach
+description: AI-powered asthma management assistant
+theme: jekyll-theme-cayman
+markdown: kramdown
+plugins:
+  - jekyll-relative-links 
