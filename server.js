@@ -6,19 +6,6 @@ const { marked } = require('marked');
 const app = express();
 const port = 3000;
 
-// Configure marked to allow HTML
-marked.setOptions({
-    headerIds: false,
-    mangle: false,
-    headerPrefix: '',
-    breaks: true,
-    gfm: true,
-    sanitize: false,
-    smartLists: true,
-    smartypants: true,
-    xhtml: true
-});
-
 // Serve static files from public directory
 app.use(express.static('public'));
 
