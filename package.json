@@ -1,0 +1,17 @@
+{
+  "name": "asthma",
+  "version": "1.0.0",
+  "description": "A simple static website setup using HTML, CSS, JavaScript with a basic Node.js server.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "marked": "^11.1.1"
+  }
+}

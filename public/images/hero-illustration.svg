@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background shapes -->
+    <circle cx="250" cy="250" r="200" fill="#F5F7FF" opacity="0.5"/>
+    <path d="M50 250C50 138.954 138.954 50 250 50C361.046 50 450 138.954 450 250C450 361.046 361.046 450 250 450C138.954 450 50 361.046 50 250Z" stroke="#4A90E2" stroke-width="2" stroke-dasharray="4 4"/>
+    
+    <!-- Floating UI elements -->
+    <g transform="translate(80, 150)">
+        <!-- Air quality card -->
+        <rect x="0" y="0" width="120" height="80" rx="12" fill="white" filter="url(#shadow)"/>
+        <text x="10" y="25" font-family="Inter" font-size="12" fill="#666">Air Quality</text>
+        <text x="10" y="55" font-family="Inter" font-size="24" font-weight="600" fill="#2D2B3F">Good</text>
+        <circle cx="90" cy="45" r="15" fill="#4CAF50"/>
+    </g>
+    
+    <g transform="translate(300, 180)">
+        <!-- Pollen info card -->
+        <rect x="0" y="0" width="120" height="80" rx="12" fill="white" filter="url(#shadow)"/>
+        <text x="10" y="25" font-family="Inter" font-size="12" fill="#666">Pollen Level</text>
+        <text x="10" y="55" font-family="Inter" font-size="24" font-weight="600" fill="#2D2B3F">Low</text>
+        <path d="M85 35L95 45L85 55" stroke="#4A90E2" stroke-width="2" fill="none"/>
+    </g>
+    
+    <!-- Person figure -->
+    <g transform="translate(180, 200)">
+        <!-- Head -->
+        <circle cx="40" cy="40" r="30" fill="#2D2B3F"/>
+        
+        <!-- Body -->
+        <path d="M40 70C40 70 20 90 20 120C20 150 60 150 60 120C60 90 40 70 40 70Z" fill="#2D2B3F"/>
+        
+        <!-- Phone in hands -->
+        <rect x="25" y="100" width="30" height="60" rx="5" fill="#4A90E2"/>
+        <rect x="28" y="105" width="24" height="50" rx="3" fill="white"/>
+    </g>
+    
+    <!-- Floating particles -->
+    <circle cx="100" cy="100" r="4" fill="#FF6B45"/>
+    <circle cx="400" cy="150" r="3" fill="#4A90E2"/>
+    <circle cx="350" cy="350" r="5" fill="#FF6B45"/>
+    <circle cx="150" cy="400" r="3" fill="#4A90E2"/>
+    
+    <!-- Filters -->
+    <defs>
+        <filter id="shadow" x="-4" y="0" width="150%" height="150%">
+            <feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.15"/>
+        </filter>
+    </defs>
+</svg> 
