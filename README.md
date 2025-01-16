@@ -23,4 +23,4 @@ This website will be a landing page an iPhone and Andoird app that provides acce
 3. Create privacy policy
 4. Create terms of service
 5. Create FAQ
-6. Create about page
+6. Create about page# asthma
